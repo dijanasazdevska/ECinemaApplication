@@ -1,0 +1,27 @@
+﻿@model IEnumerable<ECinema.Web.Models.DomainModels.Ticket>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+@foreach (var item in Model)
+{
+    <div class="card" style="width: 25%;">
+        <img class="card-img-top" src="@item.movie.MovieImage" alt="@item.movie.MovieName">
+        <div class="card-body">
+            <h5 class="card-title">@item.movie.MovieName</h5>
+            <p class="card-text">@item.MovieDate - @item.movie.Genre</p>
+            <a asp-action="Edit" asp-route-id="@item.movie.Id">Edit</a>
+            <a asp-action="Details" asp-route-id="@item.Id">Details</a>
+            <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+        </div>
+    </div>
+
+    
+}

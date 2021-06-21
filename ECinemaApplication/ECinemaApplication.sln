@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECinema.Web", "ECinema.Web\ECinema.Web.csproj", "{51F37D40-D1F9-422A-B525-49E0BD2CB16C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51F37D40-D1F9-422A-B525-49E0BD2CB16C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51F37D40-D1F9-422A-B525-49E0BD2CB16C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51F37D40-D1F9-422A-B525-49E0BD2CB16C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51F37D40-D1F9-422A-B525-49E0BD2CB16C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AF394836-8F99-45A3-9791-7CA7DE7887F5}
+	EndGlobalSection
+EndGlobal
